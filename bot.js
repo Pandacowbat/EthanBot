@@ -43,15 +43,6 @@ client.on('message', message => {
   if (message.content === 'ethan?') {
 	message.channel.send('SLAMMMMMMMMMMMMMMIIIIIIIIIINNNNN!');
   }
-  if (message.content === 'becky?'|| message.content === 'Becky'|| message.content ==='Becky?'|| message.content ==='becky' ) {
-	message.channel.send('*No Ron*');
-	}
-  if (message.content === 'sum fuk?') {
-	message.channel.send('*No Ron*');
-	}
-  if (message.content === 'becky lemme smash') {
-	message.channel.send('ffs Ron');
-  }
   if (message.content.search("in queue")!= -1) {
     message.reply('Please use #shitposting to discuss queue numbers.')
     message.delete(1000);
